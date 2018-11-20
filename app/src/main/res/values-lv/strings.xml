@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Temperatūras konvertors</string>
+    <string name="settings_menu_item">Lestatījumi</string>
+    <string name="settings_title">Lestatījumi</string>
+    <string name="settings_decimal_places_label">Decimālo vietu skaits</string>
+    <string name="large_number_error_toast">Kļūda: numurs ir pārāk liels</string>
+    <string name="negative_kelvin_error_toast">Kļūda: nevar iestatīt temperatūru zem absolūtās nulles</string>
+</resources>

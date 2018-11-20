@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Conversor de temperatura</string>
+    <string name="settings_menu_item">Definições</string>
+    <string name="settings_title">Definições</string>
+    <string name="settings_decimal_places_label">Número de casas decimais</string>
+    <string name="large_number_error_toast">Erro: o número é muito grande</string>
+    <string name="negative_kelvin_error_toast">Erro: não é possível definir a temperatura abaixo do zero absoluto</string>
+</resources>

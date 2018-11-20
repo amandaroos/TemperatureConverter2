@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pretvornik temperature</string>
+    <string name="settings_menu_item">Postavke</string>
+    <string name="settings_title">Postavke</string>
+    <string name="settings_decimal_places_label">Broj decimalnih mjesta</string>
+    <string name="large_number_error_toast">Pogreška: broj je prevelik</string>
+    <string name="negative_kelvin_error_toast">Pogreška: ne može podesiti temperaturu ispod apsolutne nule</string>
+</resources>

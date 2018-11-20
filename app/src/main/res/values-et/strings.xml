@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Temperatuuri muundur</string>
+    <string name="settings_menu_item">Seaded</string>
+    <string name="settings_title">Seaded</string>
+    <string name="settings_decimal_places_label">Kümnendkohtade arv</string>
+    <string name="large_number_error_toast">Viga: number on liiga suur</string>
+    <string name="negative_kelvin_error_toast">Viga: ei saa seada temperatuuri alla absoluutse nulli</string>
+</resources>

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:fillViewport="true"
+    tools:context=".MainActivity">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!--Labels-->
+        <TextView
+            android:id="@+id/label_kelvin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:labelFor="@id/edit_text_kelvin"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:text="@string/label_kelvin"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/label_celsius"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:labelFor="@id/edit_text_celsius"
+            android:text="@string/label_celsius"
+            app:layout_constraintBottom_toBottomOf="@id/edit_text_celsius"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="@id/edit_text_celsius" />
+
+        <TextView
+            android:id="@+id/label_fahrenheit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:labelFor="@id/edit_text_fahrenheit"
+            android:text="@string/label_fahrenheit"
+            app:layout_constraintBottom_toBottomOf="@id/edit_text_fahrenheit"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="@id/edit_text_fahrenheit" />
+
+        <TextView
+            android:id="@+id/label_rankine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:labelFor="@id/edit_text_rankine"
+            android:text="@string/label_rankine"
+            app:layout_constraintBottom_toBottomOf="@id/edit_text_rankine"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="@id/edit_text_rankine" />
+
+        <TextView
+            android:id="@+id/label_delisle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:labelFor="@id/edit_text_delisle"
+            android:text="@string/label_delisle"
+            app:layout_constraintBottom_toBottomOf="@id/edit_text_delisle"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="@id/edit_text_delisle" />
+
+        <TextView
+            android:id="@+id/label_newton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:labelFor="@id/edit_text_newton"
+            android:text="@string/label_newton"
+            app:layout_constraintBottom_toBottomOf="@id/edit_text_newton"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="@id/edit_text_newton" />
+
+        <TextView
+            android:id="@+id/label_reaumur"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:labelFor="@id/edit_text_reaumur"
+            android:text="@string/label_reaumur"
+            app:layout_constraintBottom_toBottomOf="@id/edit_text_reaumur"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="@id/edit_text_reaumur" />
+
+        <TextView
+            android:id="@+id/label_romer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:labelFor="@id/edit_text_romer"
+            android:text="@string/label_romer"
+            app:layout_constraintBottom_toBottomOf="@id/edit_text_romer"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="@id/edit_text_romer" />
+
+        <!--EditTexts-->
+        <EditText
+            android:id="@+id/edit_text_kelvin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:imeOptions="actionDone"
+            android:inputType="numberDecimal"
+            app:layout_constraintBottom_toBottomOf="@id/label_kelvin"
+            app:layout_constraintRight_toLeftOf="@id/label_kelvin"
+            app:layout_constraintTop_toTopOf="@id/label_kelvin" />
+
+        <EditText
+            android:id="@+id/edit_text_celsius"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:imeOptions="actionDone"
+            android:inputType="numberSigned|numberDecimal"
+            app:layout_constraintRight_toLeftOf="@id/label_celsius"
+            app:layout_constraintTop_toBottomOf="@id/edit_text_kelvin" />
+
+        <EditText
+            android:id="@+id/edit_text_fahrenheit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:imeOptions="actionDone"
+            android:inputType="numberSigned|numberDecimal"
+            app:layout_constraintRight_toLeftOf="@id/label_fahrenheit"
+            app:layout_constraintTop_toBottomOf="@id/edit_text_celsius" />
+
+        <EditText
+            android:id="@+id/edit_text_rankine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:imeOptions="actionDone"
+            android:inputType="numberDecimal"
+            app:layout_constraintRight_toLeftOf="@id/label_rankine"
+            app:layout_constraintTop_toBottomOf="@id/edit_text_fahrenheit" />
+
+        <EditText
+            android:id="@+id/edit_text_delisle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:imeOptions="actionDone"
+            android:inputType="numberSigned|numberDecimal"
+            app:layout_constraintRight_toLeftOf="@id/label_delisle"
+            app:layout_constraintTop_toBottomOf="@id/edit_text_rankine" />
+
+        <EditText
+            android:id="@+id/edit_text_newton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:imeOptions="actionDone"
+            android:inputType="numberSigned|numberDecimal"
+            app:layout_constraintRight_toLeftOf="@id/label_newton"
+            app:layout_constraintTop_toBottomOf="@id/edit_text_delisle" />
+
+        <EditText
+            android:id="@+id/edit_text_reaumur"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:imeOptions="actionDone"
+            android:inputType="numberSigned|numberDecimal"
+            app:layout_constraintRight_toLeftOf="@id/label_reaumur"
+            app:layout_constraintTop_toBottomOf="@id/edit_text_newton" />
+
+        <EditText
+            android:id="@+id/edit_text_romer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:imeOptions="actionDone"
+            android:inputType="numberSigned|numberDecimal"
+            app:layout_constraintRight_toLeftOf="@id/label_romer"
+            app:layout_constraintTop_toBottomOf="@id/edit_text_reaumur" />
+
+    </android.support.constraint.ConstraintLayout>
+
+</ScrollView>

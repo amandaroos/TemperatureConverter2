@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Convertitore di temperatura</string>
+    <string name="settings_menu_item">Impostazioni</string>
+    <string name="settings_title">Impostazioni</string>
+    <string name="settings_decimal_places_label">Numero di posizioni decimali</string>
+    <string name="large_number_error_toast">Errore: il numero è troppo grande</string>
+    <string name="negative_kelvin_error_toast">Errore: impossibile impostare la temperatura sotto lo zero assoluto</string>
+</resources>

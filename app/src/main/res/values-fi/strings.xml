@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Lämpötilan muunnin</string>
+    <string name="settings_menu_item">Asetukset</string>
+    <string name="settings_title">Asetukset</string>
+    <string name="settings_decimal_places_label">Desimaalipisteiden määrä</string>
+    <string name="large_number_error_toast">Virhe: numero on liian suuri</string>
+    <string name="negative_kelvin_error_toast">Virhe: lämpötilaa ei voi asettaa absoluuttisen nollan alapuolelle</string>
+</resources>

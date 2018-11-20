@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Convertor de temperatură</string>
+    <string name="settings_menu_item">Setări</string>
+    <string name="settings_title">Setări</string>
+    <string name="settings_decimal_places_label">"Numărul de locuri zecimale "</string>
+    <string name="large_number_error_toast">Eroare: numărul este prea mare</string>
+    <string name="negative_kelvin_error_toast">Eroare: nu se poate seta temperatura sub zero absolută</string>
+</resources>

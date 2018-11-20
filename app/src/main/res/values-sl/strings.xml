@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Temperaturni pretvornik</string>
+    <string name="settings_menu_item">Nastavitve</string>
+    <string name="settings_title">Nastavitve</string>
+    <string name="settings_decimal_places_label">Število decimalnih mest</string>
+    <string name="large_number_error_toast">Napaka: številka je prevelika</string>
+    <string name="negative_kelvin_error_toast">Napaka: ne more nastaviti temperature pod absolutno nič</string>
+</resources>

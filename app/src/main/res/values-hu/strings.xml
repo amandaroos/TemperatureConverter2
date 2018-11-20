@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Hőmérséklet-átalakító</string>
+    <string name="settings_menu_item">Beállítások</string>
+    <string name="settings_title">Beállítások</string>
+    <string name="settings_decimal_places_label">Decimális helyek száma</string>
+    <string name="large_number_error_toast">Hiba: a szám túl nagy</string>
+    <string name="negative_kelvin_error_toast">Hiba: az abszolút nulla alatti hőmérsékletet nem lehet beállítani</string>
+</resources>

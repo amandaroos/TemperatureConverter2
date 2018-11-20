@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Konverter Suhu</string>
+    <string name="settings_menu_item">Pengaturan</string>
+    <string name="settings_title">Pengaturan</string>
+    <string name="settings_decimal_places_label">Jumlah Tempat Desimal</string>
+    <string name="large_number_error_toast">Kesalahan: angka terlalu besar</string>
+    <string name="negative_kelvin_error_toast">Kesalahan: tidak dapat mengatur suhu di bawah nol mutlak</string>
+</resources>

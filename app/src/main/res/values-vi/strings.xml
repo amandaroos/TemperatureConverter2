@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Bộ chuyển đổi nhiệt độ</string>
+    <string name="settings_menu_item">Cài đặt</string>
+    <string name="settings_title">Cài đặt</string>
+    <string name="settings_decimal_places_label">Số lượng vị trí thập phân</string>
+    <string name="large_number_error_toast">Lỗi: số quá lớn</string>
+    <string name="negative_kelvin_error_toast">Lỗi: không thể đặt nhiệt độ dưới 0 độ tuyệt đối</string>
+</resources>

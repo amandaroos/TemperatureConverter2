@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="settings_menu_item">Mga Setting</string>
+    <string name="settings_title">Mga Setting</string>
+    <string name="settings_decimal_places_label">Bilang ng Mga Lugar ng Desimal</string>
+    <string name="large_number_error_toast">Error: masyadong malaki ang numero</string>
+    <string name="negative_kelvin_error_toast">Error: hindi maaaring magtakda ng temperatura sa ibaba absolute zero</string>
+</resources>

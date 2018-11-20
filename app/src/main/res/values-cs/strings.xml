@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Převodník teploty</string>
+    <string name="settings_menu_item">Nastavení</string>
+    <string name="settings_title">Nastavení</string>
+    <string name="settings_decimal_places_label">Počet desetinných míst</string>
+    <string name="large_number_error_toast">Chyba: číslo je příliš velké</string>
+    <string name="negative_kelvin_error_toast">Chyba: Nelze nastavit teplotu pod absolutní nulu</string>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="settings_decimal_place_labels">
+        <item>@string/settings_one_decimal_label</item>
+        <item>@string/settings_two_decimal_label</item>
+        <item>@string/settings_three_decimal_label</item>
+        <item>@string/settings_four_decimal_label</item>
+        <item>@string/settings_five_decimal_label</item>
+    </string-array>
+
+    <string-array name="settings_decimal_place_values">
+        <item>@string/settings_one_decimal_value</item>
+        <item>@string/settings_two_decimal_value</item>
+        <item>@string/settings_three_decimal_value</item>
+        <item>@string/settings_four_decimal_value</item>
+        <item>@string/settings_five_decimal_value</item>
+    </string-array>
+</resources>
